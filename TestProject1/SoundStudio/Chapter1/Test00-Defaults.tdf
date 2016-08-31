@@ -1,0 +1,14 @@
+[Requirement:]
+PR_PH_741, PR_PH_742, PR_PH_735, PR_PH_736, PR_PH_743, PR_PH_734
+[TestDescription:]
+This test verifies the defaults for importing and exporting clients
+Flow: Make sure default export format is nhax and for importing is nha, nhax. Then verify the persistance od your selection.
+[ContinousFlow:FALSE]
+[ClientDataFile:]
+3Clients.nhax
+[TestDataFile:]
+Test00-Defaults.csv
+[OfficeSystem:]
+none
+[Connected:]
+none

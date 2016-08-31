@@ -1,0 +1,27 @@
+G_App.v_Open
+G_ClientListView.v_ClientLastNameSortedASC
+G_ClientListView.TopClientClick
+G_Util.EmptyTempFolder
+//
+// Verify the Export clients default format and persistance of selected format (PR_PH_741, PR_PH_736, PR_PH_742)
+//
+//G_App.v_ExportClientsDefaultFormat // PR_PH_741 status dropped
+G_App.ExportAllClientsNha
+G_App.ExportAllClientsOpenDialog
+G_App.ExportClientsNhaFormatSelect
+G_App.v_ExportClientsNhaFormatSelect
+G_App.ExportClientsCloseDialog
+G_Util.EmptyTempFolder
+G_App.ExportAllClientsNhax
+G_App.ExportAllClientsOpenDialog
+G_App.ExportClientsNhaxFormatSelect
+G_App.v_ExportClientsNhaxFormatSelect
+G_App.ExportClientsCloseDialog
+//
+// Verify the Import clients default format (PR_PH_735, PR_PH_736, PR_PH_743)
+//
+G_Util.DeleteAllClients
+G_App.m_ImportClientsVerifyDefaultFormat
+G_App.ImportClientsFromTempFile
+G_ClientListView.v_ClientListIs3
+G_ClientListView.v_Client123IsSelected

@@ -46,3 +46,11 @@ function ProcessCommandLineArgument(arg)
   return fileName;
   
 }
+
+function Click(object, message) {
+  Log.AppendFolder(message);
+  object.Click();
+  Log.Message("Object clicked");
+  Log.Picture(Sys.Desktop.ActiveWindow(), "Take the screenshot");
+  Log.PopLogFolder();
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="AutomationLibrary" key="{B02C6773-4BE5-4AEE-B2A1-7A3C5B91E5FF}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="AutomationLibrary.js" />
+		</child>
+		<child name="Base_Test" key="{A18AB881-1847-4D3B-B6A0-03A04AD16A3E}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Base_Test.js" />
+		</child>
+		<child name="DSL_Exe" key="{F6062F98-0C20-4373-B00B-7E7602B86970}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="DSL_Exe.js" />
+		</child>
+		<child name="MBT_Engine" key="{54F374F9-4E17-4FF0-BA07-9629A4B6535E}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="MBT_Engine.js" />
+		</child>
+		<child name="TcUtil" key="{D0B932F7-312C-4783-AE63-C88CD01B0CE5}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="TcUtil.js" />
+		</child>
+		<child name="Test_Runner" key="{7455A33F-F3C6-402B-9EC6-B3009F7D65BE}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Test_Runner.js" />
+		</child>
+	</children>
+	<folders>
+		<folder caption="DSL" description="A logical folder that is used to organize project items and elements." moniker="">
+			<references>
+				<ref key="{F6062F98-0C20-4373-B00B-7E7602B86970}" />
+				<ref key="{54F374F9-4E17-4FF0-BA07-9629A4B6535E}" />
+				<ref key="{D0B932F7-312C-4783-AE63-C88CD01B0CE5}" />
+			</references>
+		</folder>
+		<folder caption="Chapter1-src" description="A logical folder that is used to organize project items and elements." moniker="">
+			<references>
+				<ref key="{B02C6773-4BE5-4AEE-B2A1-7A3C5B91E5FF}" />
+				<ref key="{A18AB881-1847-4D3B-B6A0-03A04AD16A3E}" />
+				<ref key="{7455A33F-F3C6-402B-9EC6-B3009F7D65BE}" />
+			</references>
+		</folder>
+	</folders>
+</Root>

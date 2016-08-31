@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1140" key="{3FFE202F-B8B1-4590-8AF1-4E11E09795DA}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{86AF0B85-7A73-4C6A-8792-24AA8A72560C}" type="Tested Application" typeId="{FD30A383-63C2-4C25-948C-2595C0F81320}">
+			<config nodeName="SoundStudio" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="-m geniegenesis" workFolder="C:\Program Files\Sound Studio" userName="" password="" domain="" />
+					<param name="Profile" parameters="-m geniegenesis" workFolder="C:\Program Files\Sound Studio" />
+					<param name="Debug" parameters="-m geniegenesis" workFolder="C:\Program Files\Sound Studio" />
+					<param name="Simple" fileName="SoundStudio.exe" filePath="C:\Program Files\Sound Studio\" parameters="-m geniegenesis" workFolder="C:\Program Files\Sound Studio" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+	<folders />
+</Root>

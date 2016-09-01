@@ -1,5 +1,6 @@
 ﻿//USEUNIT AutomationLibrary
 //USEUNIT SoSt_General
+//This my changed comment to Git - Sebastian
 var ViewWelcomeScreen = Aliases.SoundStudio.WelcomeScreen;
 var ViewMainWindow = Aliases.SoundStudio.MainWindow;
 

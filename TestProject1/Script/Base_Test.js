@@ -1,5 +1,6 @@
 ﻿//USEUNIT AutomationLibrary
 //USEUNIT SoSt_General
+//Check My changa
 var ViewWelcomeScreen = Aliases.SoundStudio.WelcomeScreen;
 var ViewMainWindow = Aliases.SoundStudio.MainWindow;
 

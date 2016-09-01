@@ -109,6 +109,179 @@
 													</Child>
 												</Children>
 											</Child>
+											<Child Name="SplitViewAddSceneButton" Key="{17680BBA-747D-448F-95DC-94C3238F7C71}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{A936AC5C-89F3-4727-8D54-B020DAD9E1FB}" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value PropertyType="0" Value="SplitViewAddSceneButton" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="SceneTabControl" Key="{1F17C62A-B3BD-4EE2-8235-A09CBFF46142}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{A936AC5C-89F3-4727-8D54-B020DAD9E1FB}" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value PropertyType="0" Value="SceneTabControl" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Ellipse" Key="{7F8EFEC2-1E14-4CBC-81CA-A39BA1085D49}" ExtendedFind="True" ParallelWalk="True">
+														<TypeInfo Item0="{A936AC5C-89F3-4727-8D54-B020DAD9E1FB}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value PropertyType="0" Value="System.Windows.Shapes.Ellipse" Type="5" />
+															</Property>
+															<Property Name="WPFControlOrdinalNo">
+																<Value PropertyType="0" Value="3" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="SoundLibraryContainer" Key="{5C4164E2-8806-499E-BDE6-DA51BA591EAC}" ExtendedFind="True" ParallelWalk="True">
+														<TypeInfo Item0="{A936AC5C-89F3-4727-8D54-B020DAD9E1FB}" />
+														<Properties>
+															<Property Name="WPFControlName">
+																<Value PropertyType="0" Value="SoundLibraryContainer" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="ItemsControl" Key="{2A693534-E2A1-4294-AF78-CCF9BC95511C}" ExtendedFind="True" ParallelWalk="True">
+																<TypeInfo Item0="{A936AC5C-89F3-4727-8D54-B020DAD9E1FB}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value PropertyType="0" Value="System.Windows.Controls.ItemsControl" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="ContentPresenter" Key="{1D1E84FA-2CAD-4F85-968E-679DAD83AECF}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{A936AC5C-89F3-4727-8D54-B020DAD9E1FB}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value PropertyType="0" Value="System.Windows.Controls.ContentPresenter" Type="5" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value PropertyType="0" Value="3" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="ExpanderRadioButton" Key="{980AE6C2-8245-4810-91AB-377836811669}" ExtendedFind="True" ParallelWalk="True">
+																				<TypeInfo Item0="{A936AC5C-89F3-4727-8D54-B020DAD9E1FB}" />
+																				<Properties>
+																					<Property Name="WPFControlName">
+																						<Value PropertyType="0" Value="ExpanderRadioButton" Type="5" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="SoundList" Key="{C12FDA16-2D5F-412B-92AD-FE1388B5DB85}" ExtendedFind="True" ParallelWalk="True">
+																				<TypeInfo Item0="{A936AC5C-89F3-4727-8D54-B020DAD9E1FB}" />
+																				<Properties>
+																					<Property Name="WPFControlName">
+																						<Value PropertyType="0" Value="SoundList" Type="5" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="ContentPresenter" Key="{FC7EB1AA-EFCA-495F-B07F-9A0AB62A2F0C}" ExtendedFind="True" ParallelWalk="True">
+																						<TypeInfo Item0="{A936AC5C-89F3-4727-8D54-B020DAD9E1FB}" />
+																						<Properties>
+																							<Property Name="ClrFullClassName">
+																								<Value PropertyType="0" Value="System.Windows.Controls.ContentPresenter" Type="5" />
+																							</Property>
+																							<Property Name="WPFControlOrdinalNo">
+																								<Value PropertyType="0" Value="4" Type="0" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Category" Key="{6E69BB25-5F3C-483D-A9C4-BA2BE879008D}" ExtendedFind="True" ParallelWalk="True">
+																								<TypeInfo Item0="{A936AC5C-89F3-4727-8D54-B020DAD9E1FB}" />
+																								<Properties>
+																									<Property Name="WPFControlName">
+																										<Value PropertyType="0" Value="Category" Type="5" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																							<Child Name="AddButton" Key="{E4E65291-A28A-4EE0-9E6A-5463638BB3D3}" ExtendedFind="True" ParallelWalk="True">
+																								<TypeInfo Item0="{8C8E9E28-8B3C-44BA-B4C9-E64EA1524FDA}" />
+																								<Properties>
+																									<Property Name="WPFControlName">
+																										<Value PropertyType="0" Value="AddButton" Type="5" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="SymbolIcon" Key="{B351EEA5-1427-48C6-BD84-F1B845258D49}" ExtendedFind="True" ParallelWalk="True">
+																										<TypeInfo Item0="{A936AC5C-89F3-4727-8D54-B020DAD9E1FB}" />
+																										<Properties>
+																											<Property Name="ClrFullClassName">
+																												<Value PropertyType="0" Value="Demant.SoundStudio.UI.Controls.SymbolIcon" Type="5" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="ButtonCalibrateLater" Key="{E987A9A6-CB9F-45B4-8F75-7CE1BB218C7E}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{8C8E9E28-8B3C-44BA-B4C9-E64EA1524FDA}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value PropertyType="0" Value="System.Windows.Controls.Button" Type="5" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value PropertyType="0" Value="Calibrate later" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Border" Key="{80BB631C-D929-47F3-B500-DB99E06D57E9}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{A936AC5C-89F3-4727-8D54-B020DAD9E1FB}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value PropertyType="0" Value="System.Windows.Controls.Border" Type="5" />
+													</Property>
+													<Property Name="WPFControlOrdinalNo">
+														<Value PropertyType="0" Value="4" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Button" Key="{C4FF7872-E8BF-4377-B987-2E6E5FC356CB}" ExtendedFind="True" ParallelWalk="True">
+														<TypeInfo Item0="{8C8E9E28-8B3C-44BA-B4C9-E64EA1524FDA}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value PropertyType="0" Value="System.Windows.Controls.Button" Type="5" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value PropertyType="0" Value="" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="TimeIndicator" Key="{DC71486C-EC29-42BC-9ED9-2B3FD305D421}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{A936AC5C-89F3-4727-8D54-B020DAD9E1FB}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value PropertyType="0" Value="System.Windows.Controls.TextBlock" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="ButtonNo" Key="{39A57A64-0D38-472B-954D-E4E3A7253424}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{8C8E9E28-8B3C-44BA-B4C9-E64EA1524FDA}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value PropertyType="0" Value="System.Windows.Controls.Button" Type="5" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value PropertyType="0" Value="No" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
 										</Children>
 									</Child>
 								</Children>
@@ -127,6 +300,26 @@
 			<Child Name="MainWindow" Owner="{2A537E4F-22E2-47C3-9E84-692D5E289C75}">
 				<Child Name="ButtonAddSound" Owner="{C04005F9-179F-411A-B48E-44046AFEADDB}" />
 				<Child Name="ButtonChooseFiles" Owner="{2CA557DA-2AFE-464C-AA81-F57D352D7591}" />
+				<Child Name="ButtonAddScene" Owner="{17680BBA-747D-448F-95DC-94C3238F7C71}" />
+				<Child Name="SceneTabControl" Owner="{1F17C62A-B3BD-4EE2-8235-A09CBFF46142}">
+					<Child Name="Scene" Owner="{7F8EFEC2-1E14-4CBC-81CA-A39BA1085D49}" />
+					<Child Name="SoundLibraryContainer" Owner="{5C4164E2-8806-499E-BDE6-DA51BA591EAC}">
+						<Child Name="SoundLibrary" Owner="{2A693534-E2A1-4294-AF78-CCF9BC95511C}">
+							<Child Name="ContentPresenter" Owner="{1D1E84FA-2CAD-4F85-968E-679DAD83AECF}">
+								<Child Name="ExpanderRadioButton" Owner="{980AE6C2-8245-4810-91AB-377836811669}" />
+							</Child>
+						</Child>
+						<Child Name="SoundList" Owner="{C12FDA16-2D5F-412B-92AD-FE1388B5DB85}">
+							<Child Name="GlassBreaking" Owner="{6E69BB25-5F3C-483D-A9C4-BA2BE879008D}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="ButtonCalibrateLater" Owner="{E987A9A6-CB9F-45B4-8F75-7CE1BB218C7E}" />
+				<Child Name="Border" Owner="{80BB631C-D929-47F3-B500-DB99E06D57E9}">
+					<Child Name="ButtonPlay" Owner="{C4FF7872-E8BF-4377-B987-2E6E5FC356CB}" />
+				</Child>
+				<Child Name="TimeIndicator" Owner="{DC71486C-EC29-42BC-9ED9-2B3FD305D421}" />
+				<Child Name="ButtonNo" Owner="{39A57A64-0D38-472B-954D-E4E3A7253424}" />
 			</Child>
 		</Child>
 	</LogicalNodes>
@@ -137,35 +330,35 @@
 					<Child Name="_NewEnum" Doc="Returns an enumerator for the children collection." IsBasic="True" Data="ZI4L2L4S54TDZN">
 						<ReturnValue Param0="13" />
 					</Child>
-					<Child Name="AddRef" IsBasic="True" Data="ZI4L1L4T4S13GD218V1I20">
+					<Child Name="AddRef" IsBasic="True" Data="ZI4L1L4T4S13ZG1I20">
 						<ReturnValue Param0="19" />
 					</Child>
-					<Child Name="Child" Doc="Returns a child object by its index." IsBasic="True" Param0="Index" Data="ZI4L1L4L1K3U9G74S6FK2H">
+					<Child Name="Child" Doc="Returns a child object by its index." IsBasic="True" Param0="Index" Data="ZI4L1L4L1K3U9W6FK2H">
 						<Param0>
 							<TypeDesc Param0="3" />
 							<ParamDesc Flags="1" />
 						</Param0>
 						<ReturnValue Param0="9" />
 					</Child>
-					<Child Name="ChildCount" Doc="The number of child objects." IsBasic="True" Data="ZI4L2L4S2CT3HAUD9I2H">
+					<Child Name="ChildCount" Doc="The number of child objects." IsBasic="True" Data="ZI4L2L4S2CT3YD9I2H">
 						<ReturnValue Param0="3" />
 					</Child>
-					<Child Name="Clipboard" Doc="Puts an object to or gets it from the clipboard." IsBasic="True" Data="ZI4L2L4S34TCG2T67K2H">
+					<Child Name="Clipboard" Doc="Puts an object to or gets it from the clipboard." IsBasic="True" Data="ZI4L2L4S34TCW67K2H">
 						<ReturnValue Param0="12" />
 					</Child>
-					<Child Name="CPU" Doc="Processor model and frequency." IsBasic="True" Data="ZI4L2L4S28T8G6DS7L72G">
+					<Child Name="CPU" Doc="Processor model and frequency." IsBasic="True" Data="ZI4L2L4S28T8W7L72G">
 						<ReturnValue Param0="8" />
 					</Child>
-					<Child Name="CPUCount" Doc="Returns the number of CPUs installed on the computer." IsBasic="True" Data="ZI4L2L4S2CT3G75S71K65G">
+					<Child Name="CPUCount" Doc="Returns the number of CPUs installed on the computer." IsBasic="True" Data="ZI4L2L4S2CT3W71K65G">
 						<ReturnValue Param0="3" />
 					</Child>
-					<Child Name="Desktop" Doc="Returns the desktop as a Window object." IsBasic="True" Data="ZI4L2L4S3CS1AG2T74K2H">
+					<Child Name="Desktop" Doc="Returns the desktop as a Window object." IsBasic="True" Data="ZI4L2L4S3CS1AW74K2H">
 						<ReturnValue Param0="26" Param1="29" Type1="ItcSysObjectDesktop" />
 					</Child>
-					<Child Name="Exists" Doc="True if the object exists in the system; else, false." IsBasic="True" Data="ZI4L2L4S34TBG74S61K57G">
+					<Child Name="Exists" Doc="True if the object exists in the system; else, false." IsBasic="True" Data="ZI4L2L4S34TBW61K57G">
 						<ReturnValue Param0="11" />
 					</Child>
-					<Child Name="Find" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K3CT9G74S54K73G">
+					<Child Name="Find" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K3CT9W54K73G">
 						<Param0>
 							<TypeDesc Param0="12" />
 							<ParamDesc Flags="1" />
@@ -184,7 +377,7 @@
 						</Param3>
 						<ReturnValue Param0="9" />
 					</Child>
-					<Child Name="FindAll" Doc="Returns an array of objects by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K4UCG74S54K73G">
+					<Child Name="FindAll" Doc="Returns an array of objects by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K4UCW54K73G">
 						<Param0>
 							<TypeDesc Param0="12" />
 							<ParamDesc Flags="1" />
@@ -203,7 +396,7 @@
 						</Param3>
 						<ReturnValue Param0="12" />
 					</Child>
-					<Child Name="FindAllChildren" Doc="Returns an array of objects by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K6UCG74S54K73G">
+					<Child Name="FindAllChildren" Doc="Returns an array of objects by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K6UCW54K73G">
 						<Param0>
 							<TypeDesc Param0="12" />
 							<ParamDesc Flags="1" />
@@ -222,7 +415,7 @@
 						</Param3>
 						<ReturnValue Param0="12" />
 					</Child>
-					<Child Name="FindChild" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K5CT9G74S65K74G">
+					<Child Name="FindChild" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K5CT9W65K74G">
 						<Param0>
 							<TypeDesc Param0="12" />
 							<ParamDesc Flags="1" />
@@ -287,7 +480,7 @@
 						</Param4>
 						<ReturnValue Param0="9" />
 					</Child>
-					<Child Name="FindId" Doc="Returns an object by its ID." IsBasic="True" Param0="Id" Param1="RefreshTree" Data="ZI4L1L4L2K2U9G65S64K61G">
+					<Child Name="FindId" Doc="Returns an object by its ID." IsBasic="True" Param0="Id" Param1="RefreshTree" Data="ZI4L1L4L2K2U9W64K61G">
 						<Param0>
 							<TypeDesc Param0="3" />
 							<ParamDesc Flags="1" />
@@ -298,10 +491,10 @@
 						</Param1>
 						<ReturnValue Param0="9" />
 					</Child>
-					<Child Name="FullName" Doc="Returns the full name of an object.&#32;&#32;Its full name uniquely identifies an object in the system." IsBasic="True" Data="ZI4L2L4S5U8G65S74K2H">
+					<Child Name="FullName" Doc="Returns the full name of an object.&#32;&#32;Its full name uniquely identifies an object in the system." IsBasic="True" Data="ZI4L2L4S5U8W74K2H">
 						<ReturnValue Param0="8" />
 					</Child>
-					<Child Name="GetIDsOfNames" IsBasic="True" Param0="riid" Param1="rgszNames" Param2="cNames" Param3="lcid" Param4="rgdispid" Data="ZI4L1L4L5K14S18G6DS66H1G61G">
+					<Child Name="GetIDsOfNames" IsBasic="True" Param0="riid" Param1="rgszNames" Param2="cNames" Param3="lcid" Param4="rgdispid" Data="ZI4L1L4L5K14S18W66H1G61G">
 						<Param0>
 							<TypeDesc Param0="26" Param1="29" Type1="GUID" />
 							<ParamDesc Flags="1" />
@@ -324,7 +517,7 @@
 						</Param4>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="GetTypeInfo" IsBasic="True" Param0="itinfo" Param1="lcid" Param2="pptinfo" Data="ZI4L1L4L3K1T18G79S65H1G76G">
+					<Child Name="GetTypeInfo" IsBasic="True" Param0="itinfo" Param1="lcid" Param2="pptinfo" Data="ZI4L1L4L3K1T18W65H1G76G">
 						<Param0>
 							<TypeDesc Param0="23" />
 							<ParamDesc Flags="1" />
@@ -339,20 +532,20 @@
 						</Param2>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="GetTypeInfoCount" IsBasic="True" Param0="pctinfo" Data="ZI4L1L4L1LCS18G65S74H1G2H">
+					<Child Name="GetTypeInfoCount" IsBasic="True" Param0="pctinfo" Data="ZI4L1L4L1LCS18W74H1G2H">
 						<Param0>
 							<TypeDesc Param0="26" Param1="23" />
 							<ParamDesc Flags="2" />
 						</Param0>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="HostName" Doc="The host name of the current computer." IsBasic="True" Data="ZI4L2L4S1CT8G65ZGCG">
+					<Child Name="HostName" Doc="The host name of the current computer." IsBasic="True" Data="ZI4L2L4S1CT8ZKCG">
 						<ReturnValue Param0="8" />
 					</Child>
-					<Child Name="Id" Doc="Object ID. For processes, the process ID; for windows, the window handle, etc." IsBasic="True" Data="ZI4L2L4S1CT3G2ES72K65G">
+					<Child Name="Id" Doc="Object ID. For processes, the process ID; for windows, the window handle, etc." IsBasic="True" Data="ZI4L2L4S1CT3W72K65G">
 						<ReturnValue Param0="3" />
 					</Child>
-					<Child Name="Invoke" IsBasic="True" Param0="dispidMember" Param1="riid" Param2="lcid" Param3="wFlags" Param4="pdispparams" Param5="pvarResult" Param6="pexcepinfo" Param7="puArgErr" Data="ZI4L1L4L8K18S18JEQF61G1GFFFF">
+					<Child Name="Invoke" IsBasic="True" Param0="dispidMember" Param1="riid" Param2="lcid" Param3="wFlags" Param4="pdispparams" Param5="pvarResult" Param6="pexcepinfo" Param7="puArgErr" Data="ZI4L1L4L8K18S18WF61G1GFFFF">
 						<Param0>
 							<TypeDesc Param0="3" />
 							<ParamDesc Flags="1" />
@@ -387,19 +580,19 @@
 						</Param7>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="MappedName" Doc="Specifies the mapped name of the object." IsBasic="True" Data="ZI4L2L4S48T8G2ES72K65G">
+					<Child Name="MappedName" Doc="Specifies the mapped name of the object." IsBasic="True" Data="ZI4L2L4S48T8W72K65G">
 						<ReturnValue Param0="8" />
 					</Child>
-					<Child Name="Name" Doc="Object name." IsBasic="True" Data="ZI4L2L4S24T8G63S6DK2H">
+					<Child Name="Name" Doc="Object name." IsBasic="True" Data="ZI4L2L4S24T8W6DK2H">
 						<ReturnValue Param0="8" />
 					</Child>
-					<Child Name="OSInfo" Doc="Information about the operating system installed on the current computer." IsBasic="True" Data="ZI4L2L4S24S1AG75S64K72G">
+					<Child Name="OSInfo" Doc="Information about the operating system installed on the current computer." IsBasic="True" Data="ZI4L2L4S24S1AW64K72G">
 						<ReturnValue Param0="26" Param1="29" Type1="ItcSysOsInformationBase" />
 					</Child>
-					<Child Name="Parent" Doc="Parent object." IsBasic="True" Data="ZI4L2L4S28T9G6DS7L72G">
+					<Child Name="Parent" Doc="Parent object." IsBasic="True" Data="ZI4L2L4S28T9W7L72G">
 						<ReturnValue Param0="9" />
 					</Child>
-					<Child Name="QueryInterface" IsBasic="True" Param0="riid" Param1="ppvObj" Data="ZI4L1L4L2Z018G6DS7I1G72G">
+					<Child Name="QueryInterface" IsBasic="True" Param0="riid" Param1="ppvObj" Data="ZI4L1L4L2Z018W7I1G72G">
 						<Param0>
 							<TypeDesc Param0="26" Param1="29" Type1="GUID" />
 							<ParamDesc Flags="1" />
@@ -410,23 +603,23 @@
 						</Param1>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="Refresh" Doc="Updates the internal list of child objects." IsBasic="True" Data="ZI4L1L4S4CS18G1619QE0D7I1AG">
+					<Child Name="Refresh" Doc="Updates the internal list of child objects." IsBasic="True" Data="ZI4L1L4S4CS18WE0D7I1AG">
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="Release" IsBasic="True" Data="ZI4L1L4T8S13G1619QE0D701G1AG">
+					<Child Name="Release" IsBasic="True" Data="ZI4L1L4T8S13WE0D701G1AG">
 						<ReturnValue Param0="19" />
 					</Child>
-					<Child Name="UserName" Doc="The name of the user under whose account you are working." IsBasic="True" Data="ZI4L2L4S2U8G2ES72K65G">
+					<Child Name="UserName" Doc="The name of the user under whose account you are working." IsBasic="True" Data="ZI4L2L4S2U8W72K65G">
 						<ReturnValue Param0="8" />
 					</Child>
-					<Child Name="Validate" Doc="Generates the OnValidate event." IsBasic="True" Param0="Params" Data="ZI4L1L4L1H1G38S18G6CS73G4H2H">
+					<Child Name="Validate" Doc="Generates the OnValidate event." IsBasic="True" Param0="Params" Data="ZI4L1L4L1H1G38S18W73G4H2H">
 						<Param0>
 							<TypeDesc Param0="12" />
 							<ParamDesc Flags="17" />
 						</Param0>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="WaitChild" Doc="Delays script execution until the specified child object appears in the child list or the specified time limit is reached." IsBasic="True" Param0="ChildName" Param1="WaitTime" Data="ZI4L1L4L2K44T9G65S64K61G">
+					<Child Name="WaitChild" Doc="Delays script execution until the specified child object appears in the child list or the specified time limit is reached." IsBasic="True" Param0="ChildName" Param1="WaitTime" Data="ZI4L1L4L2K44T9W64K61G">
 						<Param0>
 							<TypeDesc Param0="8" />
 							<ParamDesc Flags="1" />
@@ -437,7 +630,7 @@
 						</Param1>
 						<ReturnValue Param0="9" />
 					</Child>
-					<Child Name="WaitProperty" Doc="Delays the script execution until the specified property equals the specified value or until the specified time limit elapses." IsBasic="True" Param0="PropertyName" Param1="PropertyValue" Param2="WaitTime" Data="ZI4L1L4L3K58TBG68S2L6EG">
+					<Child Name="WaitProperty" Doc="Delays the script execution until the specified property equals the specified value or until the specified time limit elapses." IsBasic="True" Param0="PropertyName" Param1="PropertyValue" Param2="WaitTime" Data="ZI4L1L4L3K58TBW2L6EG">
 						<Param0>
 							<TypeDesc Param0="8" />
 							<ParamDesc Flags="1" />
@@ -461,10 +654,10 @@
 					<Child Name="_NewEnum" Doc="Returns an enumerator for the children collection." IsBasic="True" Data="ZI4L2L4S54TDZN">
 						<ReturnValue Param0="13" />
 					</Child>
-					<Child Name="AddRef" IsBasic="True" Data="ZI4L1L4T4S13G7318V1G4DG">
+					<Child Name="AddRef" IsBasic="True" Data="ZI4L1L4T4S13ZG1G4DG">
 						<ReturnValue Param0="19" />
 					</Child>
-					<Child Name="Child" Doc="Returns a child object by its index." IsBasic="True" Param0="Index" Data="ZI4L1L4L1K3U9G74S6FK2H">
+					<Child Name="Child" Doc="Returns a child object by its index." IsBasic="True" Param0="Index" Data="ZI4L1L4L1K3U9W6FK2H">
 						<Param0>
 							<TypeDesc Param0="3" />
 							<ParamDesc Flags="1" />
@@ -474,20 +667,20 @@
 					<Child Name="ChildCount" Doc="The number of child objects." IsBasic="True" Data="ZI4L2L4S2CT3ZN">
 						<ReturnValue Param0="3" />
 					</Child>
-					<Child Name="Close" Doc="Closes the process by sending the WM_CLOSE message to its main window." IsBasic="True" Param0="WaitTimeout" Data="ZI4L1L4L1K2CS18G73S2L6FG">
+					<Child Name="Close" Doc="Closes the process by sending the WM_CLOSE message to its main window." IsBasic="True" Param0="WaitTimeout" Data="ZI4L1L4L1K2CS18W2L6FG">
 						<Param0>
 							<TypeDesc Param0="3" />
 							<ParamDesc Flags="49" Value="3000" Type="0" />
 						</Param0>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="CommandLine" Doc="The command line passed to the process at the moment of the process creation." IsBasic="True" Data="ZI4L2L4S28T8G65S62K65G">
+					<Child Name="CommandLine" Doc="The command line passed to the process at the moment of the process creation." IsBasic="True" Data="ZI4L2L4S28T8W62K65G">
 						<ReturnValue Param0="8" />
 					</Child>
 					<Child Name="Exists" Doc="True if the object exists in the system; else, false." IsBasic="True" Data="ZI4L2L4S34TBZN">
 						<ReturnValue Param0="11" />
 					</Child>
-					<Child Name="Find" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K3CT9G4ES6DK74G">
+					<Child Name="Find" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K3CT9W6DK74G">
 						<Param0>
 							<TypeDesc Param0="12" />
 							<ParamDesc Flags="1" />
@@ -506,7 +699,7 @@
 						</Param3>
 						<ReturnValue Param0="9" />
 					</Child>
-					<Child Name="FindAll" Doc="Returns an array of objects by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K4UCG4ES65K74G">
+					<Child Name="FindAll" Doc="Returns an array of objects by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K4UCW65K74G">
 						<Param0>
 							<TypeDesc Param0="12" />
 							<ParamDesc Flags="1" />
@@ -525,7 +718,7 @@
 						</Param3>
 						<ReturnValue Param0="12" />
 					</Child>
-					<Child Name="FindAllChildren" Doc="Returns an array of objects by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K6UCG73S54K73G">
+					<Child Name="FindAllChildren" Doc="Returns an array of objects by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K6UCW54K73G">
 						<Param0>
 							<TypeDesc Param0="12" />
 							<ParamDesc Flags="1" />
@@ -544,7 +737,7 @@
 						</Param3>
 						<ReturnValue Param0="12" />
 					</Child>
-					<Child Name="FindChild" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K5CT9G73S65K74G">
+					<Child Name="FindChild" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K5CT9W65K74G">
 						<Param0>
 							<TypeDesc Param0="12" />
 							<ParamDesc Flags="1" />
@@ -609,7 +802,7 @@
 						</Param4>
 						<ReturnValue Param0="9" />
 					</Child>
-					<Child Name="FindId" Doc="Returns an object by its ID." IsBasic="True" Param0="Id" Param1="RefreshTree" Data="ZI4L1L4L2K2U9G65S64K61G">
+					<Child Name="FindId" Doc="Returns an object by its ID." IsBasic="True" Param0="Id" Param1="RefreshTree" Data="ZI4L1L4L2K2U9W64K61G">
 						<Param0>
 							<TypeDesc Param0="3" />
 							<ParamDesc Flags="1" />
@@ -623,7 +816,7 @@
 					<Child Name="FullName" Doc="Returns the full name of an object.&#32;&#32;Its full name uniquely identifies an object in the system." IsBasic="True" Data="ZI4L2L4S5U8ZN">
 						<ReturnValue Param0="8" />
 					</Child>
-					<Child Name="GetIDsOfNames" IsBasic="True" Param0="riid" Param1="rgszNames" Param2="cNames" Param3="lcid" Param4="rgdispid" Data="ZI4L1L4L5K14S18G6DS66H1G61G">
+					<Child Name="GetIDsOfNames" IsBasic="True" Param0="riid" Param1="rgszNames" Param2="cNames" Param3="lcid" Param4="rgdispid" Data="ZI4L1L4L5K14S18W66H1G61G">
 						<Param0>
 							<TypeDesc Param0="26" Param1="29" Type1="GUID" />
 							<ParamDesc Flags="1" />
@@ -646,7 +839,7 @@
 						</Param4>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="GetTypeInfo" IsBasic="True" Param0="itinfo" Param1="lcid" Param2="pptinfo" Data="ZI4L1L4L3K1T18G79S65H1G76G">
+					<Child Name="GetTypeInfo" IsBasic="True" Param0="itinfo" Param1="lcid" Param2="pptinfo" Data="ZI4L1L4L3K1T18W65H1G76G">
 						<Param0>
 							<TypeDesc Param0="23" />
 							<ParamDesc Flags="1" />
@@ -671,7 +864,7 @@
 					<Child Name="Id" Doc="Object ID. For processes, the process ID; for windows, the window handle, etc." IsBasic="True" Data="ZI4L2L4S1CT3ZN">
 						<ReturnValue Param0="3" />
 					</Child>
-					<Child Name="Invoke" IsBasic="True" Param0="dispidMember" Param1="riid" Param2="lcid" Param3="wFlags" Param4="pdispparams" Param5="pvarResult" Param6="pexcepinfo" Param7="puArgErr" Data="ZI4L1L4L8K18S18G76S2I1G6FG">
+					<Child Name="Invoke" IsBasic="True" Param0="dispidMember" Param1="riid" Param2="lcid" Param3="wFlags" Param4="pdispparams" Param5="pvarResult" Param6="pexcepinfo" Param7="puArgErr" Data="ZI4L1L4L8K18S18W2I1G6FG">
 						<Param0>
 							<TypeDesc Param0="3" />
 							<ParamDesc Flags="1" />
@@ -706,16 +899,16 @@
 						</Param7>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="MappedName" Doc="Specifies the mapped name of the object." IsBasic="True" Data="ZI4L2L4S48T8G75S2L6FG">
+					<Child Name="MappedName" Doc="Specifies the mapped name of the object." IsBasic="True" Data="ZI4L2L4S48T8W2L6FG">
 						<ReturnValue Param0="8" />
 					</Child>
-					<Child Name="Name" Doc="Object name." IsBasic="True" Data="ZI4L2L4S24T8G63S6DK2H">
+					<Child Name="Name" Doc="Object name." IsBasic="True" Data="ZI4L2L4S24T8W6DK2H">
 						<ReturnValue Param0="8" />
 					</Child>
-					<Child Name="Parent" Doc="Parent object." IsBasic="True" Data="ZI4L2L4S28T9G63S6DK2H">
+					<Child Name="Parent" Doc="Parent object." IsBasic="True" Data="ZI4L2L4S28T9W6DK2H">
 						<ReturnValue Param0="9" />
 					</Child>
-					<Child Name="QueryInterface" IsBasic="True" Param0="riid" Param1="ppvObj" Data="ZI4L1L4L2Z018G79S65H1G76G">
+					<Child Name="QueryInterface" IsBasic="True" Param0="riid" Param1="ppvObj" Data="ZI4L1L4L2Z018W65H1G76G">
 						<Param0>
 							<TypeDesc Param0="26" Param1="29" Type1="GUID" />
 							<ParamDesc Flags="1" />
@@ -726,26 +919,26 @@
 						</Param1>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="Refresh" Doc="Updates the internal list of child objects." IsBasic="True" Data="ZI4L1L4S4CS18G6718QA62BID718">
+					<Child Name="Refresh" Doc="Updates the internal list of child objects." IsBasic="True" Data="ZI4L1L4S4CS18WA62BID718">
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="Release" IsBasic="True" Data="ZI4L1L4T8S13G6718QA62B01GD718">
+					<Child Name="Release" IsBasic="True" Data="ZI4L1L4T8S13WA62B01GD718">
 						<ReturnValue Param0="19" />
 					</Child>
-					<Child Name="UserName" Doc="The name of the user account that started the process." IsBasic="True" Data="ZI4L2L4S34T8G43S65K64G">
+					<Child Name="UserName" Doc="The name of the user account that started the process." IsBasic="True" Data="ZI4L2L4S34T8W65K64G">
 						<ReturnValue Param0="8" />
 					</Child>
-					<Child Name="Validate" Doc="Generates the OnValidate event." IsBasic="True" Param0="Params" Data="ZI4L1L4L1H1G38S18G72S63G4H75G">
+					<Child Name="Validate" Doc="Generates the OnValidate event." IsBasic="True" Param0="Params" Data="ZI4L1L4L1H1G38S18W63G4H75G">
 						<Param0>
 							<TypeDesc Param0="12" />
 							<ParamDesc Flags="17" />
 						</Param0>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="VMSize" Doc="The amount of virtual memory (in kilobytes) the process is currently using." IsBasic="True" Data="ZI4L2L4S5CT3G65S61K65G">
+					<Child Name="VMSize" Doc="The amount of virtual memory (in kilobytes) the process is currently using." IsBasic="True" Data="ZI4L2L4S5CT3W61K65G">
 						<ReturnValue Param0="3" />
 					</Child>
-					<Child Name="WaitChild" Doc="Delays script execution until the specified child object appears in the child list or the specified time limit is reached." IsBasic="True" Param0="ChildName" Param1="WaitTime" Data="ZI4L1L4L2K44T9G74S65K6FG">
+					<Child Name="WaitChild" Doc="Delays script execution until the specified child object appears in the child list or the specified time limit is reached." IsBasic="True" Param0="ChildName" Param1="WaitTime" Data="ZI4L1L4L2K44T9W65K6FG">
 						<Param0>
 							<TypeDesc Param0="8" />
 							<ParamDesc Flags="1" />
@@ -756,7 +949,7 @@
 						</Param1>
 						<ReturnValue Param0="9" />
 					</Child>
-					<Child Name="WaitProperty" Doc="Delays the script execution until the specified property equals the specified value or until the specified time limit elapses." IsBasic="True" Param0="PropertyName" Param1="PropertyValue" Param2="WaitTime" Data="ZI4L1L4L3K58TBG67S65K6FG">
+					<Child Name="WaitProperty" Doc="Delays the script execution until the specified property equals the specified value or until the specified time limit elapses." IsBasic="True" Param0="PropertyName" Param1="PropertyValue" Param2="WaitTime" Data="ZI4L1L4L3K58TBW65K6FG">
 						<Param0>
 							<TypeDesc Param0="8" />
 							<ParamDesc Flags="1" />
@@ -777,23 +970,23 @@
 		<Child Hash="90516158" Key="{AEBD1B58-55B2-4F42-B228-00492DAF7AA3}">
 			<Data Properties="ZZKFFFFFFFFFFFFFFFFN4L4K26ZZY">
 				<FunctionDescriptions>
-					<Child Name="_NewEnum" Doc="Returns an enumerator for the children collection." IsBasic="True" Data="ZI4L2L4S54TDG53S49K65G">
+					<Child Name="_NewEnum" Doc="Returns an enumerator for the children collection." IsBasic="True" Data="ZI4L2L4S54TDW49K65G">
 						<ReturnValue Param0="13" />
 					</Child>
-					<Child Name="AddRef" IsBasic="True" Data="ZI4L1L4T4S13G73S64H1G65G">
+					<Child Name="AddRef" IsBasic="True" Data="ZI4L1L4T4S13W64H1G65G">
 						<ReturnValue Param0="19" />
 					</Child>
-					<Child Name="Child" Doc="Returns a child object by its index." IsBasic="True" Param0="Index" Data="ZI4L1L4L1K3U9G74S6FK2H">
+					<Child Name="Child" Doc="Returns a child object by its index." IsBasic="True" Param0="Index" Data="ZI4L1L4L1K3U9W6FK2H">
 						<Param0>
 							<TypeDesc Param0="3" />
 							<ParamDesc Flags="1" />
 						</Param0>
 						<ReturnValue Param0="9" />
 					</Child>
-					<Child Name="ChildCount" Doc="The number of child objects." IsBasic="True" Data="ZI4L2L4S2CT3G7DS1CBCJ7G">
+					<Child Name="ChildCount" Doc="The number of child objects." IsBasic="True" Data="ZI4L2L4S2CT3W1CBCJ7G">
 						<ReturnValue Param0="3" />
 					</Child>
-					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3K1CS18JBQF61JFFFF">
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3K1CS18WF61JFFFF">
 						<Param0>
 							<TypeDesc Param0="3" />
 							<ParamDesc Flags="49" Value="-1" Type="0" />
@@ -808,7 +1001,7 @@
 						</Param2>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3K24S18G62S6FK2H">
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3K24S18W6FK2H">
 						<Param0>
 							<TypeDesc Param0="3" />
 							<ParamDesc Flags="49" Value="-1" Type="0" />
@@ -823,7 +1016,7 @@
 						</Param2>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="Close" Doc="Closes the specified Window object." IsBasic="True" Param0="WaitTimeout" Data="ZI4L1L4L1K24S18G66S2L69G">
+					<Child Name="Close" Doc="Closes the specified Window object." IsBasic="True" Param0="WaitTimeout" Data="ZI4L1L4L1K24S18W2L69G">
 						<Param0>
 							<TypeDesc Param0="3" />
 							<ParamDesc Flags="49" Value="2000" Type="0" />
@@ -833,13 +1026,13 @@
 					<Child Name="ClrFullClassName" Doc="The full name of the object&apos;s class." IsBasic="True" Data="ZI4L2L4ZO8ZN">
 						<ReturnValue Param0="8" />
 					</Child>
-					<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4S38TBG4ES7L78G">
+					<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4S38TBW7L78G">
 						<ReturnValue Param0="11" />
 					</Child>
-					<Child Name="Exists" Doc="True if the object exists in the system; else, false." IsBasic="True" Data="ZI4L2L4S34TBG65S62K65G">
+					<Child Name="Exists" Doc="True if the object exists in the system; else, false." IsBasic="True" Data="ZI4L2L4S34TBW62K65G">
 						<ReturnValue Param0="11" />
 					</Child>
-					<Child Name="Find" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K3CT9G63S69K65G">
+					<Child Name="Find" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K3CT9W69K65G">
 						<Param0>
 							<TypeDesc Param0="12" />
 							<ParamDesc Flags="1" />
@@ -915,7 +1108,7 @@
 						</Param3>
 						<ReturnValue Param0="9" />
 					</Child>
-					<Child Name="FindChildEx" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Param4="Timeout" Data="ZI4L1L4L5K2U9G31S41K43G">
+					<Child Name="FindChildEx" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Param4="Timeout" Data="ZI4L1L4L5K2U9W41K43G">
 						<Param0>
 							<TypeDesc Param0="12" />
 							<ParamDesc Flags="1" />
@@ -938,7 +1131,7 @@
 						</Param4>
 						<ReturnValue Param0="9" />
 					</Child>
-					<Child Name="FindEx" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Param4="Timeout" Data="ZI4L1L4L5K1CT9G31S65K76G">
+					<Child Name="FindEx" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Param4="Timeout" Data="ZI4L1L4L5K1CT9W65K76G">
 						<Param0>
 							<TypeDesc Param0="12" />
 							<ParamDesc Flags="1" />
@@ -961,7 +1154,7 @@
 						</Param4>
 						<ReturnValue Param0="9" />
 					</Child>
-					<Child Name="FindId" Doc="Returns an object by its ID." IsBasic="True" Param0="Id" Param1="RefreshTree" Data="ZI4L1L4L2K2U9H18R2EK61G">
+					<Child Name="FindId" Doc="Returns an object by its ID." IsBasic="True" Param0="Id" Param1="RefreshTree" Data="ZI4L1L4L2K2U9W2EK61G">
 						<Param0>
 							<TypeDesc Param0="3" />
 							<ParamDesc Flags="1" />
@@ -972,10 +1165,10 @@
 						</Param1>
 						<ReturnValue Param0="9" />
 					</Child>
-					<Child Name="FullName" Doc="Returns the full name of an object.&#32;&#32;Its full name uniquely identifies an object in the system." IsBasic="True" Data="ZI4L2L4S5U8G65S74K2H">
+					<Child Name="FullName" Doc="Returns the full name of an object.&#32;&#32;Its full name uniquely identifies an object in the system." IsBasic="True" Data="ZI4L2L4S5U8W74K2H">
 						<ReturnValue Param0="8" />
 					</Child>
-					<Child Name="GetIDsOfNames" IsBasic="True" Param0="riid" Param1="rgszNames" Param2="cNames" Param3="lcid" Param4="rgdispid" Data="ZI4L1L4L5K14S18G6DS66H1G61G">
+					<Child Name="GetIDsOfNames" IsBasic="True" Param0="riid" Param1="rgszNames" Param2="cNames" Param3="lcid" Param4="rgdispid" Data="ZI4L1L4L5K14S18W66H1G61G">
 						<Param0>
 							<TypeDesc Param0="26" Param1="29" Type1="GUID" />
 							<ParamDesc Flags="1" />
@@ -998,7 +1191,7 @@
 						</Param4>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="GetTypeInfo" IsBasic="True" Param0="itinfo" Param1="lcid" Param2="pptinfo" Data="ZI4L1L4L3K1T18G79S65H1G76G">
+					<Child Name="GetTypeInfo" IsBasic="True" Param0="itinfo" Param1="lcid" Param2="pptinfo" Data="ZI4L1L4L3K1T18W65H1G76G">
 						<Param0>
 							<TypeDesc Param0="23" />
 							<ParamDesc Flags="1" />
@@ -1013,20 +1206,20 @@
 						</Param2>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="GetTypeInfoCount" IsBasic="True" Param0="pctinfo" Data="ZI4L1L4L1LCS18G65S74H1G2H">
+					<Child Name="GetTypeInfoCount" IsBasic="True" Param0="pctinfo" Data="ZI4L1L4L1LCS18W74H1G2H">
 						<Param0>
 							<TypeDesc Param0="26" Param1="23" />
 							<ParamDesc Flags="2" />
 						</Param0>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4S34T3G2T66K74G">
+					<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4S34T3W66K74G">
 						<ReturnValue Param0="3" />
 					</Child>
-					<Child Name="Id" Doc="Object ID. For processes, the process ID; for windows, the window handle, etc." IsBasic="True" Data="ZI4L2L4S1CT3G65S7L78G">
+					<Child Name="Id" Doc="Object ID. For processes, the process ID; for windows, the window handle, etc." IsBasic="True" Data="ZI4L2L4S1CT3W7L78G">
 						<ReturnValue Param0="3" />
 					</Child>
-					<Child Name="Invoke" IsBasic="True" Param0="dispidMember" Param1="riid" Param2="lcid" Param3="wFlags" Param4="pdispparams" Param5="pvarResult" Param6="pexcepinfo" Param7="puArgErr" Data="ZI4L1L4L8K18S18G2DS41H1G43G">
+					<Child Name="Invoke" IsBasic="True" Param0="dispidMember" Param1="riid" Param2="lcid" Param3="wFlags" Param4="pdispparams" Param5="pvarResult" Param6="pexcepinfo" Param7="puArgErr" Data="ZI4L1L4L8K18S18W41H1G43G">
 						<Param0>
 							<TypeDesc Param0="3" />
 							<ParamDesc Flags="1" />
@@ -1061,23 +1254,23 @@
 						</Param7>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1K4T18G61S6FK73G">
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1K4T18W6FK73G">
 						<Param0>
 							<TypeDesc Param0="8" />
 							<ParamDesc Flags="1" />
 						</Param0>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="MappedName" Doc="Specifies the mapped name of the object." IsBasic="True" Data="ZI4L2L4S48T8G2T6CK6BG">
+					<Child Name="MappedName" Doc="Specifies the mapped name of the object." IsBasic="True" Data="ZI4L2L4S48T8W6CK6BG">
 						<ReturnValue Param0="8" />
 					</Child>
-					<Child Name="Name" Doc="Object name." IsBasic="True" Data="ZI4L2L4S24T8G63S6DK2H">
+					<Child Name="Name" Doc="Object name." IsBasic="True" Data="ZI4L2L4S24T8W6DK2H">
 						<ReturnValue Param0="8" />
 					</Child>
-					<Child Name="Parent" Doc="Parent object." IsBasic="True" Data="ZI4L2L4S28T9G63S6DK2H">
+					<Child Name="Parent" Doc="Parent object." IsBasic="True" Data="ZI4L2L4S28T9W6DK2H">
 						<ReturnValue Param0="9" />
 					</Child>
-					<Child Name="Position" Doc="Sets the specified position and size for the specific Window object." IsBasic="True" Param0="Left" Param1="Top" Param2="Width" Param3="Height" Data="ZI4L1L4L4K28S18G66S2L69G">
+					<Child Name="Position" Doc="Sets the specified position and size for the specific Window object." IsBasic="True" Param0="Left" Param1="Top" Param2="Width" Param3="Height" Data="ZI4L1L4L4K28S18W2L69G">
 						<Param0>
 							<TypeDesc Param0="3" />
 							<ParamDesc Flags="1" />
@@ -1096,7 +1289,7 @@
 						</Param3>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="QueryInterface" IsBasic="True" Param0="riid" Param1="ppvObj" Data="ZI4L1L4L2Z018G7T74H1G6FG">
+					<Child Name="QueryInterface" IsBasic="True" Param0="riid" Param1="ppvObj" Data="ZI4L1L4L2Z018W74H1G6FG">
 						<Param0>
 							<TypeDesc Param0="26" Param1="29" Type1="GUID" />
 							<ParamDesc Flags="1" />
@@ -1110,23 +1303,23 @@
 					<Child Name="Refresh" Doc="Updates the internal list of child objects." IsBasic="True" Data="ZI4L1L4S4CS18W65K49G">
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="Release" IsBasic="True" Data="ZI4L1L4T8S13G75S6EH1G43G">
+					<Child Name="Release" IsBasic="True" Data="ZI4L1L4T8S13W6EH1G43G">
 						<ReturnValue Param0="19" />
 					</Child>
-					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4S1CS18G64Z06FG">
+					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4S1CS18ZJ6FG">
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="Validate" Doc="Generates the OnValidate event." IsBasic="True" Param0="Params" Data="ZI4L1L4L1H1G38S18G7T66G4H65G">
+					<Child Name="Validate" Doc="Generates the OnValidate event." IsBasic="True" Param0="Params" Data="ZI4L1L4L1H1G38S18W66G4H65G">
 						<Param0>
 							<TypeDesc Param0="12" />
 							<ParamDesc Flags="17" />
 						</Param0>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4S1CTBG35S35K39G">
+					<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4S1CTBW35K39G">
 						<ReturnValue Param0="11" />
 					</Child>
-					<Child Name="WaitChild" Doc="Delays script execution until the specified child object appears in the child list or the specified time limit is reached." IsBasic="True" Param0="ChildName" Param1="WaitTime" Data="ZI4L1L4L2K44T9G6ES73K72G">
+					<Child Name="WaitChild" Doc="Delays script execution until the specified child object appears in the child list or the specified time limit is reached." IsBasic="True" Param0="ChildName" Param1="WaitTime" Data="ZI4L1L4L2K44T9W73K72G">
 						<Param0>
 							<TypeDesc Param0="8" />
 							<ParamDesc Flags="1" />
@@ -1137,7 +1330,7 @@
 						</Param1>
 						<ReturnValue Param0="9" />
 					</Child>
-					<Child Name="WaitProperty" Doc="Delays the script execution until the specified property equals the specified value or until the specified time limit elapses." IsBasic="True" Param0="PropertyName" Param1="PropertyValue" Param2="WaitTime" Data="ZI4L1L4L3K58TBG68S2L6EG">
+					<Child Name="WaitProperty" Doc="Delays the script execution until the specified property equals the specified value or until the specified time limit elapses." IsBasic="True" Param0="PropertyName" Param1="PropertyValue" Param2="WaitTime" Data="ZI4L1L4L3K58TBW2L6EG">
 						<Param0>
 							<TypeDesc Param0="8" />
 							<ParamDesc Flags="1" />
@@ -1152,7 +1345,7 @@
 						</Param2>
 						<ReturnValue Param0="11" />
 					</Child>
-					<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4S3U3G2T66K74G">
+					<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4S3U3W66K74G">
 						<ReturnValue Param0="3" />
 					</Child>
 				</FunctionDescriptions>
@@ -1161,10 +1354,10 @@
 		<Child Hash="1526636819" Key="{A936AC5C-89F3-4727-8D54-B020DAD9E1FB}">
 			<Data Properties="ZZKFFFFFFFFFFFFFFFFN4L4K23ZZY">
 				<FunctionDescriptions>
-					<Child Name="_NewEnum" Doc="Returns an enumerator for the children collection." IsBasic="True" Data="ZI4L2L4S54TDG63S61K6CG">
+					<Child Name="_NewEnum" Doc="Returns an enumerator for the children collection." IsBasic="True" Data="ZI4L2L4S54TDW61K6CG">
 						<ReturnValue Param0="13" />
 					</Child>
-					<Child Name="AddRef" IsBasic="True" Data="ZI4L1L4T4S13G64X1G67G">
+					<Child Name="AddRef" IsBasic="True" Data="ZI4L1L4T4S13ZG1G67G">
 						<ReturnValue Param0="19" />
 					</Child>
 					<Child Name="Child" Doc="Returns a child object by its index." IsBasic="True" Param0="Index" Data="ZI4L1L4L1K3U9W42K75G">
@@ -1174,10 +1367,10 @@
 						</Param0>
 						<ReturnValue Param0="9" />
 					</Child>
-					<Child Name="ChildCount" Doc="The number of child objects." IsBasic="True" Data="ZI4L2L4S2CT3G63S62K2H">
+					<Child Name="ChildCount" Doc="The number of child objects." IsBasic="True" Data="ZI4L2L4S2CT3W62K2H">
 						<ReturnValue Param0="3" />
 					</Child>
-					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3K1CS18JBQF61JFFFF">
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3K1CS18WF61JFFFF">
 						<Param0>
 							<TypeDesc Param0="3" />
 							<ParamDesc Flags="49" Value="-1" Type="0" />
@@ -1192,7 +1385,7 @@
 						</Param2>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3K24S18G62S6FK2H">
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3K24S18W6FK2H">
 						<Param0>
 							<TypeDesc Param0="3" />
 							<ParamDesc Flags="49" Value="-1" Type="0" />
@@ -1210,10 +1403,10 @@
 					<Child Name="ClrFullClassName" Doc="The full name of the object&apos;s class." IsBasic="True" Data="ZI4L2L4ZO8ZN">
 						<ReturnValue Param0="8" />
 					</Child>
-					<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4S38TBG4ES7L78G">
+					<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4S38TBW7L78G">
 						<ReturnValue Param0="11" />
 					</Child>
-					<Child Name="Exists" Doc="True if the object exists in the system; else, false." IsBasic="True" Data="ZI4L2L4S34TBG65S62K65G">
+					<Child Name="Exists" Doc="True if the object exists in the system; else, false." IsBasic="True" Data="ZI4L2L4S34TBW62K65G">
 						<ReturnValue Param0="11" />
 					</Child>
 					<Child Name="Find" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K3CT9WE718M">
@@ -1338,7 +1531,7 @@
 						</Param4>
 						<ReturnValue Param0="9" />
 					</Child>
-					<Child Name="FindId" Doc="Returns an object by its ID." IsBasic="True" Param0="Id" Param1="RefreshTree" Data="ZI4L1L4L2K2U9G72S76K6CG">
+					<Child Name="FindId" Doc="Returns an object by its ID." IsBasic="True" Param0="Id" Param1="RefreshTree" Data="ZI4L1L4L2K2U9W76K6CG">
 						<Param0>
 							<TypeDesc Param0="3" />
 							<ParamDesc Flags="1" />
@@ -1349,10 +1542,10 @@
 						</Param1>
 						<ReturnValue Param0="9" />
 					</Child>
-					<Child Name="FullName" Doc="Returns the full name of an object.&#32;&#32;Its full name uniquely identifies an object in the system." IsBasic="True" Data="ZI4L2L4S5U8G73S6EK61G">
+					<Child Name="FullName" Doc="Returns the full name of an object.&#32;&#32;Its full name uniquely identifies an object in the system." IsBasic="True" Data="ZI4L2L4S5U8W6EK61G">
 						<ReturnValue Param0="8" />
 					</Child>
-					<Child Name="GetIDsOfNames" IsBasic="True" Param0="riid" Param1="rgszNames" Param2="cNames" Param3="lcid" Param4="rgdispid" Data="ZI4L1L4L5K14S18G6DS66H1G61G">
+					<Child Name="GetIDsOfNames" IsBasic="True" Param0="riid" Param1="rgszNames" Param2="cNames" Param3="lcid" Param4="rgdispid" Data="ZI4L1L4L5K14S18W66H1G61G">
 						<Param0>
 							<TypeDesc Param0="26" Param1="29" Type1="GUID" />
 							<ParamDesc Flags="1" />
@@ -1375,7 +1568,7 @@
 						</Param4>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="GetTypeInfo" IsBasic="True" Param0="itinfo" Param1="lcid" Param2="pptinfo" Data="ZI4L1L4L3K1T18G63S63H1G69G">
+					<Child Name="GetTypeInfo" IsBasic="True" Param0="itinfo" Param1="lcid" Param2="pptinfo" Data="ZI4L1L4L3K1T18W63H1G69G">
 						<Param0>
 							<TypeDesc Param0="23" />
 							<ParamDesc Flags="1" />
@@ -1390,20 +1583,20 @@
 						</Param2>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="GetTypeInfoCount" IsBasic="True" Param0="pctinfo" Data="ZI4L1L4L1LCS18G63S63H1G69G">
+					<Child Name="GetTypeInfoCount" IsBasic="True" Param0="pctinfo" Data="ZI4L1L4L1LCS18W63H1G69G">
 						<Param0>
 							<TypeDesc Param0="26" Param1="23" />
 							<ParamDesc Flags="2" />
 						</Param0>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4S34T3G2T66K74G">
+					<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4S34T3W66K74G">
 						<ReturnValue Param0="3" />
 					</Child>
-					<Child Name="Id" Doc="Object ID. For processes, the process ID; for windows, the window handle, etc." IsBasic="True" Data="ZI4L2L4S1CT3G78S6EK6FG">
+					<Child Name="Id" Doc="Object ID. For processes, the process ID; for windows, the window handle, etc." IsBasic="True" Data="ZI4L2L4S1CT3W6EK6FG">
 						<ReturnValue Param0="3" />
 					</Child>
-					<Child Name="Invoke" IsBasic="True" Param0="dispidMember" Param1="riid" Param2="lcid" Param3="wFlags" Param4="pdispparams" Param5="pvarResult" Param6="pexcepinfo" Param7="puArgErr" Data="ZI4L1L4L8K18S18G2DS32H1G3H">
+					<Child Name="Invoke" IsBasic="True" Param0="dispidMember" Param1="riid" Param2="lcid" Param3="wFlags" Param4="pdispparams" Param5="pvarResult" Param6="pexcepinfo" Param7="puArgErr" Data="ZI4L1L4L8K18S18W32H1G3H">
 						<Param0>
 							<TypeDesc Param0="3" />
 							<ParamDesc Flags="1" />
@@ -1438,23 +1631,23 @@
 						</Param7>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1K4T18G61S6FK73G">
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1K4T18W6FK73G">
 						<Param0>
 							<TypeDesc Param0="8" />
 							<ParamDesc Flags="1" />
 						</Param0>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="MappedName" Doc="Specifies the mapped name of the object." IsBasic="True" Data="ZI4L2L4S48T8G72S6CK6BG">
+					<Child Name="MappedName" Doc="Specifies the mapped name of the object." IsBasic="True" Data="ZI4L2L4S48T8W6CK6BG">
 						<ReturnValue Param0="8" />
 					</Child>
-					<Child Name="Name" Doc="Object name." IsBasic="True" Data="ZI4L2L4S24T8G63S6DK2H">
+					<Child Name="Name" Doc="Object name." IsBasic="True" Data="ZI4L2L4S24T8W6DK2H">
 						<ReturnValue Param0="8" />
 					</Child>
-					<Child Name="Parent" Doc="Parent object." IsBasic="True" Data="ZI4L2L4S28T9G63S65K64G">
+					<Child Name="Parent" Doc="Parent object." IsBasic="True" Data="ZI4L2L4S28T9W65K64G">
 						<ReturnValue Param0="9" />
 					</Child>
-					<Child Name="QueryInterface" IsBasic="True" Param0="riid" Param1="ppvObj" Data="ZI4L1L4L2Z018G74S65H1G6FG">
+					<Child Name="QueryInterface" IsBasic="True" Param0="riid" Param1="ppvObj" Data="ZI4L1L4L2Z018W65H1G6FG">
 						<Param0>
 							<TypeDesc Param0="26" Param1="29" Type1="GUID" />
 							<ParamDesc Flags="1" />
@@ -1468,20 +1661,20 @@
 					<Child Name="Refresh" Doc="Updates the internal list of child objects." IsBasic="True" Data="ZI4L1L4S4CS18W61K67G">
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="Release" IsBasic="True" Data="ZI4L1L4T8S13G62S74H1G6EG">
+					<Child Name="Release" IsBasic="True" Data="ZI4L1L4T8S13W74H1G6EG">
 						<ReturnValue Param0="19" />
 					</Child>
-					<Child Name="Validate" Doc="Generates the OnValidate event." IsBasic="True" Param0="Params" Data="ZI4L1L4L1H1G38S18G61S6CG4H7H">
+					<Child Name="Validate" Doc="Generates the OnValidate event." IsBasic="True" Param0="Params" Data="ZI4L1L4L1H1G38S18W6CG4H7H">
 						<Param0>
 							<TypeDesc Param0="12" />
 							<ParamDesc Flags="17" />
 						</Param0>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4S1CTBG35S35K39G">
+					<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4S1CTBW35K39G">
 						<ReturnValue Param0="11" />
 					</Child>
-					<Child Name="WaitChild" Doc="Delays script execution until the specified child object appears in the child list or the specified time limit is reached." IsBasic="True" Param0="ChildName" Param1="WaitTime" Data="ZI4L1L4L2K44T9G72S49K74G">
+					<Child Name="WaitChild" Doc="Delays script execution until the specified child object appears in the child list or the specified time limit is reached." IsBasic="True" Param0="ChildName" Param1="WaitTime" Data="ZI4L1L4L2K44T9W49K74G">
 						<Param0>
 							<TypeDesc Param0="8" />
 							<ParamDesc Flags="1" />
@@ -1492,7 +1685,7 @@
 						</Param1>
 						<ReturnValue Param0="9" />
 					</Child>
-					<Child Name="WaitProperty" Doc="Delays the script execution until the specified property equals the specified value or until the specified time limit elapses." IsBasic="True" Param0="PropertyName" Param1="PropertyValue" Param2="WaitTime" Data="ZI4L1L4L3K58TBG68S2L6EG">
+					<Child Name="WaitProperty" Doc="Delays the script execution until the specified property equals the specified value or until the specified time limit elapses." IsBasic="True" Param0="PropertyName" Param1="PropertyValue" Param2="WaitTime" Data="ZI4L1L4L3K58TBW2L6EG">
 						<Param0>
 							<TypeDesc Param0="8" />
 							<ParamDesc Flags="1" />
@@ -1507,7 +1700,7 @@
 						</Param2>
 						<ReturnValue Param0="11" />
 					</Child>
-					<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4S3U3G2T66K74G">
+					<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4S3U3W66K74G">
 						<ReturnValue Param0="3" />
 					</Child>
 				</FunctionDescriptions>
@@ -1516,10 +1709,10 @@
 		<Child Hash="1564806803" Key="{8C8E9E28-8B3C-44BA-B4C9-E64EA1524FDA}">
 			<Data Properties="ZZKFFFFFFFFFFFFFFFFN4L4K24ZZY">
 				<FunctionDescriptions>
-					<Child Name="_NewEnum" Doc="Returns an enumerator for the children collection." IsBasic="True" Data="ZI4L2L4S54TDG73S49K74G">
+					<Child Name="_NewEnum" Doc="Returns an enumerator for the children collection." IsBasic="True" Data="ZI4L2L4S54TDW49K74G">
 						<ReturnValue Param0="13" />
 					</Child>
-					<Child Name="AddRef" IsBasic="True" Data="ZI4L1L4T4S13G64X1K">
+					<Child Name="AddRef" IsBasic="True" Data="ZI4L1L4T4S13ZG1K">
 						<ReturnValue Param0="19" />
 					</Child>
 					<Child Name="Child" Doc="Returns a child object by its index." IsBasic="True" Param0="Index" Data="ZI4L1L4L1K3U9W42K75G">
@@ -1529,10 +1722,10 @@
 						</Param0>
 						<ReturnValue Param0="9" />
 					</Child>
-					<Child Name="ChildCount" Doc="The number of child objects." IsBasic="True" Data="ZI4L2L4S2CT3G63S62K2H">
+					<Child Name="ChildCount" Doc="The number of child objects." IsBasic="True" Data="ZI4L2L4S2CT3W62K2H">
 						<ReturnValue Param0="3" />
 					</Child>
-					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3K1CS18JBQF61JFFFF">
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3K1CS18WF61JFFFF">
 						<Param0>
 							<TypeDesc Param0="3" />
 							<ParamDesc Flags="49" Value="-1" Type="0" />
@@ -1550,7 +1743,7 @@
 					<Child Name="ClickButton" Doc="Performs a single click on the specified button." IsBasic="True" Data="ZI4L1L4S1CS18W53K6FG">
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3K24S18G62S6FK2H">
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3K24S18W6FK2H">
 						<Param0>
 							<TypeDesc Param0="3" />
 							<ParamDesc Flags="49" Value="-1" Type="0" />
@@ -1568,10 +1761,10 @@
 					<Child Name="ClrFullClassName" Doc="The full name of the object&apos;s class." IsBasic="True" Data="ZI4L2L4ZO8ZN">
 						<ReturnValue Param0="8" />
 					</Child>
-					<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4S38TBG4ES7L78G">
+					<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4S38TBW7L78G">
 						<ReturnValue Param0="11" />
 					</Child>
-					<Child Name="Exists" Doc="True if the object exists in the system; else, false." IsBasic="True" Data="ZI4L2L4S34TBG65S62K65G">
+					<Child Name="Exists" Doc="True if the object exists in the system; else, false." IsBasic="True" Data="ZI4L2L4S34TBW62K65G">
 						<ReturnValue Param0="11" />
 					</Child>
 					<Child Name="Find" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K3CT9ZN">
@@ -1696,7 +1889,7 @@
 						</Param4>
 						<ReturnValue Param0="9" />
 					</Child>
-					<Child Name="FindId" Doc="Returns an object by its ID." IsBasic="True" Param0="Id" Param1="RefreshTree" Data="ZI4L1L4L2K2U9G72S76K6CG">
+					<Child Name="FindId" Doc="Returns an object by its ID." IsBasic="True" Param0="Id" Param1="RefreshTree" Data="ZI4L1L4L2K2U9W76K6CG">
 						<Param0>
 							<TypeDesc Param0="3" />
 							<ParamDesc Flags="1" />
@@ -1707,10 +1900,10 @@
 						</Param1>
 						<ReturnValue Param0="9" />
 					</Child>
-					<Child Name="FullName" Doc="Returns the full name of an object.&#32;&#32;Its full name uniquely identifies an object in the system." IsBasic="True" Data="ZI4L2L4S5U8G78S6EK61G">
+					<Child Name="FullName" Doc="Returns the full name of an object.&#32;&#32;Its full name uniquely identifies an object in the system." IsBasic="True" Data="ZI4L2L4S5U8W6EK61G">
 						<ReturnValue Param0="8" />
 					</Child>
-					<Child Name="GetIDsOfNames" IsBasic="True" Param0="riid" Param1="rgszNames" Param2="cNames" Param3="lcid" Param4="rgdispid" Data="ZI4L1L4L5K14S18G73S63H1G49G">
+					<Child Name="GetIDsOfNames" IsBasic="True" Param0="riid" Param1="rgszNames" Param2="cNames" Param3="lcid" Param4="rgdispid" Data="ZI4L1L4L5K14S18W63H1G49G">
 						<Param0>
 							<TypeDesc Param0="26" Param1="29" Type1="GUID" />
 							<ParamDesc Flags="1" />
@@ -1733,7 +1926,7 @@
 						</Param4>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="GetTypeInfo" IsBasic="True" Param0="itinfo" Param1="lcid" Param2="pptinfo" Data="ZI4L1L4L3K1T18G73S63H1G49G">
+					<Child Name="GetTypeInfo" IsBasic="True" Param0="itinfo" Param1="lcid" Param2="pptinfo" Data="ZI4L1L4L3K1T18W63H1G49G">
 						<Param0>
 							<TypeDesc Param0="23" />
 							<ParamDesc Flags="1" />
@@ -1748,20 +1941,20 @@
 						</Param2>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="GetTypeInfoCount" IsBasic="True" Param0="pctinfo" Data="ZI4L1L4L1LCS18G63S63H1G69G">
+					<Child Name="GetTypeInfoCount" IsBasic="True" Param0="pctinfo" Data="ZI4L1L4L1LCS18W63H1G69G">
 						<Param0>
 							<TypeDesc Param0="26" Param1="23" />
 							<ParamDesc Flags="2" />
 						</Param0>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4S34T3G2T66K74G">
+					<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4S34T3W66K74G">
 						<ReturnValue Param0="3" />
 					</Child>
-					<Child Name="Id" Doc="Object ID. For processes, the process ID; for windows, the window handle, etc." IsBasic="True" Data="ZI4L2L4S1CT3G73S76K6CG">
+					<Child Name="Id" Doc="Object ID. For processes, the process ID; for windows, the window handle, etc." IsBasic="True" Data="ZI4L2L4S1CT3W76K6CG">
 						<ReturnValue Param0="3" />
 					</Child>
-					<Child Name="Invoke" IsBasic="True" Param0="dispidMember" Param1="riid" Param2="lcid" Param3="wFlags" Param4="pdispparams" Param5="pvarResult" Param6="pexcepinfo" Param7="puArgErr" Data="ZI4L1L4L8K18S18G61S65H1G72G">
+					<Child Name="Invoke" IsBasic="True" Param0="dispidMember" Param1="riid" Param2="lcid" Param3="wFlags" Param4="pdispparams" Param5="pvarResult" Param6="pexcepinfo" Param7="puArgErr" Data="ZI4L1L4L8K18S18W65H1G72G">
 						<Param0>
 							<TypeDesc Param0="3" />
 							<ParamDesc Flags="1" />
@@ -1796,20 +1989,20 @@
 						</Param7>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1K4T18G61S6FK73G">
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1K4T18W6FK73G">
 						<Param0>
 							<TypeDesc Param0="8" />
 							<ParamDesc Flags="1" />
 						</Param0>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="MappedName" Doc="Specifies the mapped name of the object." IsBasic="True" Data="ZI4L2L4S48T8G72S6CK6BG">
+					<Child Name="MappedName" Doc="Specifies the mapped name of the object." IsBasic="True" Data="ZI4L2L4S48T8W6CK6BG">
 						<ReturnValue Param0="8" />
 					</Child>
-					<Child Name="Name" Doc="Object name." IsBasic="True" Data="ZI4L2L4S24T8G63S6DK2H">
+					<Child Name="Name" Doc="Object name." IsBasic="True" Data="ZI4L2L4S24T8W6DK2H">
 						<ReturnValue Param0="8" />
 					</Child>
-					<Child Name="Parent" Doc="Parent object." IsBasic="True" Data="ZI4L2L4S28T9G63S65K64G">
+					<Child Name="Parent" Doc="Parent object." IsBasic="True" Data="ZI4L2L4S28T9W65K64G">
 						<ReturnValue Param0="9" />
 					</Child>
 					<Child Name="QueryInterface" IsBasic="True" Param0="riid" Param1="ppvObj" Data="ZI4L1L4L2Z018ZG1G69G">
@@ -1829,17 +2022,17 @@
 					<Child Name="Release" IsBasic="True" Data="ZI4L1L4T8S13W61H1G67G">
 						<ReturnValue Param0="19" />
 					</Child>
-					<Child Name="Validate" Doc="Generates the OnValidate event." IsBasic="True" Param0="Params" Data="ZI4L1L4L1H1G38S18G6FS65G4H74G">
+					<Child Name="Validate" Doc="Generates the OnValidate event." IsBasic="True" Param0="Params" Data="ZI4L1L4L1H1G38S18W65G4H74G">
 						<Param0>
 							<TypeDesc Param0="12" />
 							<ParamDesc Flags="17" />
 						</Param0>
 						<ReturnValue Param0="24" />
 					</Child>
-					<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4S1CTBG35S35K39G">
+					<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4S1CTBW35K39G">
 						<ReturnValue Param0="11" />
 					</Child>
-					<Child Name="WaitChild" Doc="Delays script execution until the specified child object appears in the child list or the specified time limit is reached." IsBasic="True" Param0="ChildName" Param1="WaitTime" Data="ZI4L1L4L2K44T9G72S49K74G">
+					<Child Name="WaitChild" Doc="Delays script execution until the specified child object appears in the child list or the specified time limit is reached." IsBasic="True" Param0="ChildName" Param1="WaitTime" Data="ZI4L1L4L2K44T9W49K74G">
 						<Param0>
 							<TypeDesc Param0="8" />
 							<ParamDesc Flags="1" />
@@ -1850,7 +2043,7 @@
 						</Param1>
 						<ReturnValue Param0="9" />
 					</Child>
-					<Child Name="WaitProperty" Doc="Delays the script execution until the specified property equals the specified value or until the specified time limit elapses." IsBasic="True" Param0="PropertyName" Param1="PropertyValue" Param2="WaitTime" Data="ZI4L1L4L3K58TBG68S2L6EG">
+					<Child Name="WaitProperty" Doc="Delays the script execution until the specified property equals the specified value or until the specified time limit elapses." IsBasic="True" Param0="PropertyName" Param1="PropertyValue" Param2="WaitTime" Data="ZI4L1L4L3K58TBW2L6EG">
 						<Param0>
 							<TypeDesc Param0="8" />
 							<ParamDesc Flags="1" />
@@ -1865,7 +2058,7 @@
 						</Param2>
 						<ReturnValue Param0="11" />
 					</Child>
-					<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4S3U3G2T66K74G">
+					<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4S3U3W66K74G">
 						<ReturnValue Param0="3" />
 					</Child>
 				</FunctionDescriptions>

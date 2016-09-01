@@ -48,9 +48,24 @@ function ProcessCommandLineArgument(arg)
 }
 
 function Click(object, message) {
-  Log.AppendFolder(message);
+  Log.AppendFolder("Click: "+message);
   object.Click();
-  Log.Message("Object clicked");
+  Log.Message("Object " + message + " clicked");
   Log.Picture(Sys.Desktop.ActiveWindow(), "Take the screenshot");
+  Log.PopLogFolder();
+}
+
+function ClickIfExists(object, message) {
+
+  var exists = object.Exists;
+  if (exists) {
+    Click(object, " [optional] " + message);
+  }
+}
+
+function CheckIfExists(object, message) {
+  Log.AppendFolder("Check if object " + message + " exists");
+  Log.Picture(Sys.Desktop.ActiveWindow(), "Take the screenshot");
+  aqObject.CheckProperty(object, "Exists", cmpEqual, true)
   Log.PopLogFolder();
 }

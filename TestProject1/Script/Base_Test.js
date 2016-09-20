@@ -22,9 +22,11 @@ function Test1() {
   SoundLibrary.ItemsControl.ContentPresenter.Click();
   
   var GlassBreaking = Aliases.SoundStudio.MainWindow.SceneTabControl.SoundLibraryContainer.SoundList.GlassBreaking;
-  AutomationLibrary.Click(GlassBreaking, "Item Glass Breaking");
-  GlassBreaking.HoverMouse();
-  GlassBreaking.DblClick();
+  
+  var SoundItem = Aliases.SoundStudio.MainWindow.SceneTabControl.SoundLibraryContainer.SoundList.SoundItem
+  AutomationLibrary.Click(SoundItem, "Item Sound");
+  SoundItem.HoverMouse();
+  SoundItem.DblClick();
 
   AutomationLibrary.ClickIfExists(ViewMainWindow.ButtonCalibrateLater, "Button Calibrate Later");
   

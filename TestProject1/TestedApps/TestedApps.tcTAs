@@ -10,7 +10,7 @@
 					<param name="RunAs" parameters="-m geniegenesis" workFolder="C:\Program Files\Sound Studio" userName="" password="" domain="" />
 					<param name="Profile" parameters="-m geniegenesis" workFolder="C:\Program Files\Sound Studio" />
 					<param name="Debug" parameters="-m geniegenesis" workFolder="C:\Program Files\Sound Studio" />
-					<param name="Simple" fileName="SoundStudio.exe" filePath="C:\Program Files\Sound Studio\" parameters="-m geniegenesis" workFolder="C:\Program Files\Sound Studio" />
+					<param name="Simple" fileName="SoundStudio.exe" filePath="C:\Program Files\SoundStudio\" parameters="-m geniegenesis" workFolder="C:\Program Files\Sound Studio" />
 				</runModeParams>
 			</config>
 			<testData />

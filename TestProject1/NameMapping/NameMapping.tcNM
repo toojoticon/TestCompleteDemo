@@ -47,7 +47,13 @@
 														<Value PropertyType="0" Value="System.Windows.Controls.Button" Type="5" />
 													</Property>
 													<Property Name="WPFControlText">
-														<Value PropertyType="0" Value="Launch Sound Studio" Type="5" />
+														<Value PropertyType="0" Value="Launch SoundStudio" Type="5" />
+													</Property>
+													<Property Name="Id">
+														<Value PropertyType="0" Value="31" Type="0" />
+													</Property>
+													<Property Name="PersistId">
+														<Value PropertyType="0" Value="12" Type="0" />
 													</Property>
 												</Properties>
 											</Child>
@@ -218,6 +224,24 @@
 																							</Child>
 																						</Children>
 																					</Child>
+																					<Child Name="ContentPresenter2" Key="{779164A3-2A66-4539-8F09-4C50E9B92088}" ExtendedFind="True" ParallelWalk="True">
+																						<TypeInfo Item0="{A936AC5C-89F3-4727-8D54-B020DAD9E1FB}" />
+																						<Properties>
+																							<Property Name="ClrFullClassName">
+																								<Value PropertyType="0" Value="System.Windows.Controls.ContentPresenter" Type="5" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="SoundItem" Key="{761D3310-122A-4385-AC08-84AAA3B0285E}" ExtendedFind="True" ParallelWalk="True">
+																								<TypeInfo Item0="{A936AC5C-89F3-4727-8D54-B020DAD9E1FB}" />
+																								<Properties>
+																									<Property Name="WPFControlName">
+																										<Value PropertyType="0" Value="Container" Type="5" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
 																				</Children>
 																			</Child>
 																		</Children>
@@ -311,6 +335,7 @@
 						</Child>
 						<Child Name="SoundList" Owner="{C12FDA16-2D5F-412B-92AD-FE1388B5DB85}">
 							<Child Name="GlassBreaking" Owner="{6E69BB25-5F3C-483D-A9C4-BA2BE879008D}" />
+							<Child Name="SoundItem" Owner="{761D3310-122A-4385-AC08-84AAA3B0285E}" />
 						</Child>
 					</Child>
 				</Child>

@@ -1,4 +1,4 @@
-﻿//USEUNIT AutomationLibrary
+﻿//USEUNIT Lib_Automation
 
 function RunTestCmd() {
   

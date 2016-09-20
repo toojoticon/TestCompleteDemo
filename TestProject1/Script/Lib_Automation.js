@@ -1,4 +1,13 @@
-﻿function killProcess(processName) {
+﻿/**
+Authors: TOOJ 
+Date created: 2016-09-20
+Description: 
+Library supporting automation. Functions not related to the product under test. 
+Operations on operating system, file system, logging.
+
+*/
+
+function killProcess(processName) {
   //Check if process exists
   if (Sys.WaitProcess(processName).Exists) 
   {

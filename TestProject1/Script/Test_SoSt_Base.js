@@ -1,6 +1,14 @@
-﻿//USEUNIT AutomationLibrary
-//USEUNIT SoSt_General
-//This my changed comment to Git - Sebastian
+﻿/**
+Author: TOOJ
+Date created: 2016-09-20 
+Description: 
+Base tests for Sound Studio.
+
+*/
+
+//USEUNIT Lib_Automation
+//USEUNIT Lib_SoSt_General
+
 var ViewWelcomeScreen = Aliases.SoundStudio.WelcomeScreen;
 var ViewMainWindow = Aliases.SoundStudio.MainWindow;
 

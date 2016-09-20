@@ -1,4 +1,12 @@
-﻿//USEUNIT AutomationLibrary
+﻿/**
+Author: 
+Date created: 
+Description: 
+Library with general functions for Sound Studio platform.
+
+*/
+
+//USEUNIT Lib_Automation
 
 function StartSoundStudio() {
   AutomationLibrary.killProcess("SoundStudio");

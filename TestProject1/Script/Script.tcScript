@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
-		<child name="AutomationLibrary" key="{B02C6773-4BE5-4AEE-B2A1-7A3C5B91E5FF}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
-			<data path="AutomationLibrary.js" />
+		<child name="Lib_Automation" key="{B02C6773-4BE5-4AEE-B2A1-7A3C5B91E5FF}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Lib_Automation.js" />
 		</child>
-		<child name="Base_Test" key="{A18AB881-1847-4D3B-B6A0-03A04AD16A3E}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
-			<data path="Base_Test.js" />
+		<child name="Test_SoSt_Base" key="{A18AB881-1847-4D3B-B6A0-03A04AD16A3E}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Test_SoSt_Base.js" />
 		</child>
 		<child name="DSL_Exe" key="{F6062F98-0C20-4373-B00B-7E7602B86970}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
 			<data path="DSL_Exe.js" />
@@ -19,8 +19,8 @@
 		<child name="Test_Runner" key="{7455A33F-F3C6-402B-9EC6-B3009F7D65BE}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
 			<data path="Test_Runner.js" />
 		</child>
-		<child name="SoSt_General" key="{638FE599-DE49-443C-AE00-2C1BD3142AF3}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
-			<data path="SoSt_General.js" />
+		<child name="Lib_SoSt_General" key="{638FE599-DE49-443C-AE00-2C1BD3142AF3}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Lib_SoSt_General.js" />
 		</child>
 	</children>
 	<folders>

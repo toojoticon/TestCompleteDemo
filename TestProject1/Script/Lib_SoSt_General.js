@@ -9,7 +9,7 @@ Library with general functions for Sound Studio platform.
 //USEUNIT Lib_Automation
 
 function StartSoundStudio() {
-  AutomationLibrary.killProcess("SoundStudio");
+  Lib_Automation.killProcess("SoundStudio");
    
   /** Command line parameter change **/
   TestedApps.SoundStudio.Params.ActiveParams.CommandLineParameters = "-m geniegenesis";

@@ -22,6 +22,9 @@
 		<child name="Lib_SoSt_General" key="{638FE599-DE49-443C-AE00-2C1BD3142AF3}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
 			<data path="Lib_SoSt_General.js" />
 		</child>
+		<child name="Test_SoSt_TOOJ_sandbox" key="{498B4383-A32A-4FE0-9F5F-BB1709211770}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Test_SoSt_TOOJ_sandbox.js" />
+		</child>
 	</children>
 	<folders>
 		<folder caption="DSL" description="A logical folder that is used to organize project items and elements." moniker="">
@@ -34,9 +37,20 @@
 		<folder caption="Chapter1-src" description="A logical folder that is used to organize project items and elements." moniker="">
 			<references>
 				<ref key="{B02C6773-4BE5-4AEE-B2A1-7A3C5B91E5FF}" />
-				<ref key="{A18AB881-1847-4D3B-B6A0-03A04AD16A3E}" />
-				<ref key="{7455A33F-F3C6-402B-9EC6-B3009F7D65BE}" />
 				<ref key="{638FE599-DE49-443C-AE00-2C1BD3142AF3}" />
+			</references>
+		</folder>
+		<folder caption="Tests" description="A logical folder that is used to organize project items and elements." moniker="">
+			<folders>
+				<folder caption="17.1" description="A logical folder that is used to organize project items and elements." moniker="">
+					<references>
+						<ref key="{A18AB881-1847-4D3B-B6A0-03A04AD16A3E}" />
+						<ref key="{498B4383-A32A-4FE0-9F5F-BB1709211770}" />
+					</references>
+				</folder>
+			</folders>
+			<references>
+				<ref key="{7455A33F-F3C6-402B-9EC6-B3009F7D65BE}" />
 			</references>
 		</folder>
 	</folders>

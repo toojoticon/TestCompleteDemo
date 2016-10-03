@@ -11,20 +11,22 @@ Base tests for Sound Studio.
 
 var ViewWelcomeScreen = Aliases.SoundStudio.WelcomeScreen;
 var ViewMainWindow = Aliases.SoundStudio.MainWindow;
+var Auto = Lib_Automation;
 
-function Test1() {
+function Test_SoSt_BaseCheck() {
   StartSoundStudio();
-  AutomationLibrary.Click(ViewWelcomeScreen.ButtonLaunchSoundStudio, "Launch Sound Studio");
-  AutomationLibrary.ClickIfExists(ViewMainWindow.ButtonNo, "Button No (import sounds)");
-    
-  AutomationLibrary.Click(ViewMainWindow.ButtonAddSound, "Add Sounds Button");
   
-  AutomationLibrary.CheckIfExists(ViewMainWindow.ButtonChooseFiles, "Button Choose Files");
+  Auto.ClickIfExists(ViewWelcomeScreen.ButtonLaunchSoundStudio, "Launch Sound Studio");
+  Auto.ClickIfExists(ViewMainWindow.ButtonNo, "Button No (import sounds)");
     
-  AutomationLibrary.Click(ViewMainWindow.ButtonAddScene, "Compose New Scene Button");
+  Auto.Click(ViewMainWindow.ButtonAddSound, "Add Sounds Button");
+  
+  Auto.CheckIfExists(ViewMainWindow.ButtonChooseFiles, "Button Choose Files");
+    
+  Auto.Click(ViewMainWindow.ButtonAddScene, "Compose New Scene Button");
   var Scene = ViewMainWindow.SceneTabControl.Scene;
 
-  AutomationLibrary.CheckIfExists(Scene, "Scene");
+  Auto.CheckIfExists(Scene, "Scene");
   
   var SoundLibrary = Aliases.SoundStudio.MainWindow.SceneTabControl.SoundLibraryContainer;
   SoundLibrary.ItemsControl.ContentPresenter.Click();
@@ -32,31 +34,23 @@ function Test1() {
   var GlassBreaking = Aliases.SoundStudio.MainWindow.SceneTabControl.SoundLibraryContainer.SoundList.GlassBreaking;
   
   var SoundItem = Aliases.SoundStudio.MainWindow.SceneTabControl.SoundLibraryContainer.SoundList.SoundItem
-  AutomationLibrary.Click(SoundItem, "Item Sound");
+  Auto.Click(SoundItem, "Item Sound");
   SoundItem.HoverMouse();
   SoundItem.DblClick();
 
-  AutomationLibrary.ClickIfExists(ViewMainWindow.ButtonCalibrateLater, "Button Calibrate Later");
+  Auto.ClickIfExists(ViewMainWindow.ButtonCalibrateLater, "Button Calibrate Later");
   
-  AutomationLibrary.Click(ViewMainWindow.Border.ButtonPlay, "Play Button");
-  AutomationLibrary.CheckIfExists(ViewMainWindow.TimeIndicator, "Time indicator");
+  Auto.Click(ViewMainWindow.Border.ButtonPlay, "Play Button");
+  Auto.CheckIfExists(ViewMainWindow.TimeIndicator, "Time indicator");
   var text = ViewMainWindow.TimeIndicator.Text;
   Log.Message("Text is: " + text);
+
+  //Create new scene (check if SoundStudio is not hanged)
+  Auto.Click(ViewMainWindow.ButtonAddScene, "Compose New Scene Button");
+  Auto.CheckIfExists(Scene, "Scene");
   
   //CloseSoundStudio();
 }
 
-function Test2() {
-  var SoundLibrary = Aliases.SoundStudio.MainWindow.SceneTabControl.SoundLibraryContainer.SoundLibrary;
-  var items = SoundLibrary.Items;
-  var count = items.Count;
-  
-  for (var c=0; c<count; c++) {
-    var item = items.GetItemAt(c);
-    
-    var subitem = item.GetItemAt(0);
-    Log.Message(subitem.Content);
-  }  
 
-}
 

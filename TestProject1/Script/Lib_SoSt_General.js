@@ -17,6 +17,8 @@ function StartSoundStudio() {
   Log.AppendFolder("Start Sound Studio");
   TestedApps.SoundStudio.Run();
   Log.PopLogFolder();
+  //Aliases.SoundStudio.Maximize();
+  
 }
 
 function CloseSoundStudio() {
